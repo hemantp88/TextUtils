@@ -7,10 +7,10 @@ import About from "./Components/About";
 // import Switch from react-router-dom;
 import {
   BrowserRouter as Router,
-  // Switch,
+
   Routes,
   Route,
-  Link
+
 } from "react-router-dom";
 
 function App() {
