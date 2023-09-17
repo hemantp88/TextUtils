@@ -3,15 +3,15 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import TextForm from "./Components/TextForm";
 import Alert from "./Components/Alert";
-import About from "./Components/About";
+// import About from "./Components/About";
 // import Switch from react-router-dom;
-import {
-  BrowserRouter as Router,
+// import {
+//   BrowserRouter as Router,
 
-  Routes,
-  Route,
+//   Routes,
+//   Route,
 
-} from "react-router-dom";
+// } from "react-router-dom";
 
 function App() {
   const [Mode, setMode] = useState('light'); //wheter dark mode is enabel or not
@@ -41,27 +41,29 @@ function App() {
   };
   return (
     <>
-  <Router>
+  {/* <Router> */}
       <Navbar title="TextUtilis" AboutText="About Us" mode={Mode} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
       <div className="container my-3">
 
-      <Routes>
-      <Route exact path='/About' element={<About />} />
+      {/* <Routes> */}
+      {/* <Route exact path='/About' element={<About />} /> */}
 
           
           
-          <Route exact path='/' element={<TextForm heading="Enter your text Here" showAlert={showAlert} mode={Mode} />} />
+          {/* <Route exact path='/' element={ */}
+          <TextForm heading="Enter your text Here" showAlert={showAlert} mode={Mode} />
+          {/* // } /> */}
 
           
           
-        </Routes>
+        {/* </Routes> */}
  
           
 
         
         </div>
-        </Router>
+        {/* </Router> */}
     </>
   );
 }
