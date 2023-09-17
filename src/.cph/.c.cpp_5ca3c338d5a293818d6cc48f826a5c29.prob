@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"c:\\Users\\panch\\Documents\\REACT PLAYLIST\\my-app\\src\\c.cpp","tests":[{"id":1694925809995,"input":"3\n3 2 3\n2\n","output":""},{"id":1694957227365,"input":"4\n3 3 3 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\panch\\Documents\\REACT PLAYLIST\\my-app\\src\\c.cpp","group":"local","local":true}
